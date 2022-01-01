@@ -1,0 +1,106 @@
+.conteiner-item{
+    position:relative;
+    max-width:1000px;
+    margin: 0 auto;
+    }
+   header {
+       position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 55px;
+        background-color:rgb(122, 245, 204);
+        text-align: center;
+        font-weight: bold;
+      }
+    header a {
+          text-decoration: none;
+          color:black;
+      }
+      
+      .nav_main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        list-style: none;
+      }
+      .nav_main a:hover {
+        background-color: #e0f808;
+      }
+      .nav_main a:active {
+        color: white;
+        text-decoration: none;}
+    body {
+            background-color: #d6b0f5;
+            box-sizing: border-box;
+            margin: 50px;
+             }
+      
+     body a {
+        text-decoration: none;
+        color: black;
+    }      
+    a:hover {
+        background-color: #e0f808;
+    }
+    #contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .my-photo {
+        margin-left: -20px;
+    }
+    #about-me {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+        }
+    #skills {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    } 
+    #education {
+            text-align:start;
+            font-size: 23px;
+            margin-top: 50px; 
+            margin-left: 220px;
+    }
+    #strong {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    } 
+    #code-tasks {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+        } 
+    #hobby{
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    }
+    .footer {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(122, 245, 204);
+        color: black;
+        font-size: 20px;
+        }
+           .footer a:hover {
+            background-color: #e0f808;
+          }
+ 
