@@ -1,5 +1,12 @@
+.conteiner-item{
+    position:relative;
+    max-width:1000px;
+    margin: 0 auto;
+    }
    header {
-        width: 100%;
+       position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
         height: 55px;
         background-color:rgb(122, 245, 204);
         text-align: center;
@@ -29,17 +36,71 @@
             margin: 50px;
              }
       
-                         
+     body a {
+        text-decoration: none;
+        color: black;
+    }      
+    a:hover {
+        background-color: #e0f808;
+    }
+    #contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .my-photo {
+        margin-left: -20px;
+    }
+    #about-me {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+        }
+    #skills {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    } 
+    #education {
+            text-align:start;
+            font-size: 23px;
+            margin-top: 50px; 
+            margin-left: 220px;
+    }
+    #strong {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    } 
+    #code-tasks {
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+        } 
+    #hobby{
+        text-align:start;
+        font-size: 23px;
+        margin-top: 50px; 
+        margin-left: 220px;
+    }
     .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(122, 245, 204);
-    color: black;
-    font-size: 20px;
-}
-footer a {
-    text-decoration: none;
-}
-
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(122, 245, 204);
+        color: black;
+        font-size: 20px;
+        }
+           .footer a:hover {
+            background-color: #e0f808;
+          }
+ 
